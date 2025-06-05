@@ -21,6 +21,11 @@ class Node{
         stack(){
             top = NULL; // Intilize the stack with a null to pointer
         }
+    
+    // Push operation :insert an element onto the top of the stack
+        int push(int value)
+        {
+            Node *newNode = new Node(); // 1. Allocate memory for the node
+        }
     };
-
         
