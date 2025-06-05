@@ -55,5 +55,6 @@ class Node{
                 cout << "List is empty:" << endl;
                 return; // if the stack is empty, print a messege and return
             }
+         else
         }
     };
