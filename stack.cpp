@@ -29,5 +29,8 @@ class Node{
         
             newNode -> data = value; // 2. assign value
             newNode -> next = top; // 3. set the next pointer of the new node to the current
+             top = newNode; // 4. update the top pointer to the new node
         }
     };
+
+        
