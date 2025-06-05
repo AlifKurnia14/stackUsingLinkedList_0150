@@ -26,6 +26,8 @@ class Node{
         int push(int value)
         {
             Node *newNode = new Node(); // 1. Allocate memory for the node
+        
+            newNode -> data = value; // 2. assign value
         }
     };
         
