@@ -39,4 +39,13 @@ class Node{
             return top == NULL ; // return true if the top pointer is NULL, indicating an empty stack
         }
 
+    void pop(){
+            if (isEmpty()){
+                cout << "Stack is empty :" << endl;
+                return;
+
+            }
+            cout << "Popped value :" << top -> data << endl;
+            top = top -> next;
+        }
     };
