@@ -11,3 +11,16 @@ class Node{
     }
 
     };
+
+    // stack class
+    class stack{
+        private:
+        Node *top; // Pointer to the node og the stack
+
+        public:
+        stack(){
+            top = NULL; // Intilize the stack with a null to pointer
+        }
+    };
+
+        
